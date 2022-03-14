@@ -1,4 +1,4 @@
-package com.dockerexample.usermanager;
+package com.dategeneration.usermanager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

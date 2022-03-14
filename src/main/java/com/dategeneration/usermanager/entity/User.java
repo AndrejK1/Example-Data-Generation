@@ -1,4 +1,4 @@
-package com.dockerexample.usermanager.entity;
+package com.dategeneration.usermanager.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.dockerexample.usermanager.repository;
+package com.dategeneration.usermanager.repository;
 
-import com.dockerexample.usermanager.entity.Product;
+import com.dategeneration.usermanager.entity.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

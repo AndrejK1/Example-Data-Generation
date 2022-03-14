@@ -20,4 +20,4 @@ ENV JAR_PATH target/${DEFAULT_JAR_NAME}
 
 WORKDIR ${BASE_DIR}
 COPY --from=maven-app ${BASE_DIR}/${JAR_PATH} ${BASE_DIR}
-ENTRYPOINT exec java -Dspring.profiles.active=${DEFAULT_PROFILE_ENV} -jar ${BASE_DIR}/${DEFAULT_JAR_NAME} com.dockerexample.usermanager.UserManagerApplication
+ENTRYPOINT exec java -Dspring.profiles.active=${DEFAULT_PROFILE_ENV} -jar ${BASE_DIR}/${DEFAULT_JAR_NAME} com.datageneration.usermanager.UserManagerApplication

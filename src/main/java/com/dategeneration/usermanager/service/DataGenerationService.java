@@ -1,11 +1,11 @@
-package com.dockerexample.usermanager.service;
+package com.dategeneration.usermanager.service;
 
-import com.dockerexample.usermanager.entity.Order;
-import com.dockerexample.usermanager.entity.Product;
-import com.dockerexample.usermanager.entity.User;
-import com.dockerexample.usermanager.repository.OrderRepository;
-import com.dockerexample.usermanager.repository.ProductRepository;
-import com.dockerexample.usermanager.repository.UserRepository;
+import com.dategeneration.usermanager.entity.Order;
+import com.dategeneration.usermanager.entity.Product;
+import com.dategeneration.usermanager.entity.User;
+import com.dategeneration.usermanager.repository.OrderRepository;
+import com.dategeneration.usermanager.repository.ProductRepository;
+import com.dategeneration.usermanager.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.StringUtils;
